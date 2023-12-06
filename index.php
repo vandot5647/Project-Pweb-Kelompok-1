@@ -95,7 +95,7 @@ include 'connect/koneksi.php';
 			<div class="row">
 
 				<?php  
-				$sql = "SELECT * FROM produk INNER JOIN kategori_produk ON kategori_produk.id = produk.kategori ORDER BY RAND() LIMIT 8";
+				$sql = "SELECT * FROM kategori_produk INNER JOIN produk ON produk.kategori = kategori_produk.id ORDER BY RAND() LIMIT 8";
 				$tampil = mysqli_query($con, $sql);
 	                      
 				$no = 1;
