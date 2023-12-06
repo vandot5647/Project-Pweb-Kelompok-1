@@ -30,16 +30,20 @@ include 'connect/koneksi.php';
 		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
 		  </div>
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img src="img/img1.jpg" class="d-block img-fluid" alt="Gambar 1">
+		      <img src="img/slider-1.jpg" class="d-block img-fluid" alt="Gambar 1">
 		    </div>
 		    <div class="carousel-item">
-		      <img src="img/img2.jpg" class="d-block img-fluid" alt="Gambar 2">
+		      <img src="img/slider-2.jpg" class="d-block img-fluid" alt="Gambar 2">
 		    </div>
 		    <div class="carousel-item">
-		      <img src="img/img3.jpg" class="d-block img-fluid" alt="Gambar 3">
+		      <img src="img/slider-3.jpg" class="d-block img-fluid" alt="Gambar 3">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/slider-4.jpg" class="d-block img-fluid" alt="Gambar 4">
 		    </div>
 		  </div>
 		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
